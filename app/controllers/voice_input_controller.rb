@@ -1,0 +1,2 @@
+class VoiceInputController < ApplicationController
+end
