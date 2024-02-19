@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'openai'
 class DashboardController < ApplicationController
   def index
     response = OpenAI::Client.new.audio.speech(
