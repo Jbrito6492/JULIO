@@ -1,4 +1,9 @@
-<div>
+<div data-controller="dashboard">
+  <% if @audio_path %>
+    <audio class="hidden" data-dashboard-target="welcomeAudio" controls src="<%= @audio_path %>"></audio>
+  <% end %>
+
+
   <%= form_with(url: voice_input_path, local: true, data: { controller: "voice-input" }) do |form| %>
     <div class="field">
       <%= form.label :content %>
