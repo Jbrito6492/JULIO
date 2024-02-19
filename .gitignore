@@ -39,3 +39,6 @@
 
 # Ignore SSL key files.
 /config/ssl/*
+
+# mp3 files
+/public/*.mp3
