@@ -1,9 +1,5 @@
 <div>
   <%= form_with(url: voice_input_path, local: true, data: { controller: "voice-input" }) do |form| %>
-    <div>
-      <%= form.label :title, style: "display: block" %>
-      <%= form.text_field :title, name: 'voice_input[title]' %>
-    </div>
     <div class="field">
       <%= form.label :content %>
       <%= form.text_area :content, name: 'voice_input[content]', data: { voice_input_target: 'input' } %>
