@@ -44,4 +44,4 @@
 /public/*.mp3
 
 # JetBrain IDE
-.idea/*
+.idea/
