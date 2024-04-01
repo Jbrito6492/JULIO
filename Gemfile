@@ -82,5 +82,6 @@ group :test do
 end
 
 group :artificial_intelligence, :default do
+  gem "open_router"
   gem 'ruby-openai'
 end
